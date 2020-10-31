@@ -51,6 +51,7 @@
     "dist"
   ],
   "dependencies": {
+    "react-router-dom": "^5.2.0",
     "prop-types": "^15.7.2"
   }
 }

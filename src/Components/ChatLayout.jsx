@@ -6,15 +6,13 @@ class Header extends Component {
     render() {
         return (
             <Fragment>
-                <div className={styles.header}>
-                    <h5>{this.props.title}</h5>
-                    <h5>X</h5>
+                <div style={{width: '200px', height: '500px'}}>
+                    
                 </div>
             </Fragment>
         )
     }
 static propTypes = {
-    title: PropTypes.string
 }
 }
 

@@ -5,7 +5,7 @@ export default class Header extends Component {
     render() {
         return (
             <Fragment>
-                <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+                <div className={styles.header}>
                     <h5>{this.props.title}</h5>
                     <h5>X</h5>
                 </div>

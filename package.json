@@ -49,8 +49,5 @@
   },
   "files": [
     "dist"
-  ],
-  "dependencies": {
-    "prop-types": "^15.7.2"
-  }
+  ]
 }

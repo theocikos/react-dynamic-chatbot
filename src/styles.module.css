@@ -15,3 +15,164 @@
   background-color: slateblue;
   padding: 0.3em;
 }
+.main-container {
+  background-image: url("https://cdn.pixabay.com/photo/2017/11/29/04/02/walk-2985198_960_720.jpg");
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.9;
+}
+
+.main-container h1 {
+    padding-top: 5px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header a{
+    margin-right: 40px;
+    text-decoration: none;
+    color:white;  
+}
+
+.button {
+    border-radius: 100px;
+    background-color: lightblue;
+    border-width: 0;
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 500px;
+}
+
+.footer {
+    background-color: cadetblue;
+}
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 15px;
+  color: white;
+  padding: 12px;
+}
+
+.custom-tag {
+  max-width: 100%;
+  height: 100vh;
+  background: black;
+}
+
+.TextCont{
+  padding: 1% !important;
+  position: relative;
+  height: 50%;
+  right: 50%;
+  width: 50%;
+  font-size: 25px;
+}
+
+.carouselCont{
+  align-items: center;
+}
+
+.carousel-caption {
+  top: 10%;
+  bottom: auto;
+  }
+
+  #service {
+    float: left;
+    width: 100%;
+  }
+  
+  .service-area {
+    float: left;
+    padding: 100px 0;
+    width: 100%;
+  }
+  
+  .service-header {
+    float: left;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .heading-title {
+    color: #1c1b1b;
+    margin-bottom: 15px;
+    position: relative;
+  }
+  
+  .header-dot {
+    background-color: $primary;
+    border-radius: 0;
+    height: 3px;
+    width: 100px;
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+  
+  .service-content{
+    float: left;
+    margin-top: 70px;
+    width: 100%;
+  }
+  
+  .service-content-single{
+    float: left;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0 10px;
+    width: 100%;
+  }
+  
+  .service-icon-box {
+    font-size: 35px;
+    margin-bottom: 20px;
+    display: inline-block;
+    border-radius: 10px;
+  }
+  
+  .service-content-single h4{
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  
+  .service-content-single p{
+    font-size: 15px;
+  }
+
+  #contact {
+    background-color: #f8f8f8;
+    float: left;
+    width: 100%;
+  }
+  
+  .contact-area { 
+    float: left;
+    padding: 100px 0;
+    width: 100%;
+  }
+  
+  .contact-header {
+    // float: left;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .contact-content{ 
+    float: left;
+    margin-top: 50px;
+    width: 100%;
+  }
+  
+  .contact-left {
+    float: left;
+    width: 100%;
+  }

@@ -15,16 +15,18 @@ npm install --save react-dynamic-chatbot
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'react-dynamic-chatbot'
+import Chatbot from 'react-dynamic-chatbot'
 import 'react-dynamic-chatbot/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <Chatbot 
+              headerTitle={'Your chatbot title'}
+            />
   }
 }
 ```
 
 ## License
 
-MIT © [theocikos](https://github.com/theocikos)
+MIT © [theocikos](https://github.com/theocikos) [eNale](https://github.com/eNale)
